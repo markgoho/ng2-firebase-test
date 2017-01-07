@@ -1,0 +1,11 @@
+<div class="object">
+  <h2>Retrieve Data as Object</h2>
+  <pre>{{ item | async | json }}</pre>
+  <input type="text" #newname placeholder="destructive update" />
+  <button (click)="save(newname.value)">Set Name</button>
+  <br />
+  <input type="text" #newsize placeholder="non-destructive update" />
+  <button (click)="update(newsize.value)">Update Size</button>
+  <br />
+  <button (click)="delete()">Delete</button>
+</div>

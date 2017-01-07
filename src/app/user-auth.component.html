@@ -1,0 +1,6 @@
+<div class="auth">
+  <h2>User Authentication</h2>
+  <div> UID: <br />{{ (af.auth | async)?.uid }} </div>
+  <button (click)="login()">Login</button>
+  <button (click)="logout()">Logout</button>
+</div>

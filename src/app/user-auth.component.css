@@ -1,0 +1,7 @@
+.auth {
+  border: 1px solid grey;
+  border-radius: 5px;
+  flex: 1 1 25%;
+  padding: 1em;
+  margin: 1em;
+}
